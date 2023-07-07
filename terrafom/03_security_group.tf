@@ -1,3 +1,4 @@
+
 resource "aws_security_group" "my_security_group" {
   vpc_id = aws_vpc.my_vpc.id
 
@@ -27,3 +28,22 @@ resource "aws_security_group" "my_security_group" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+   ingress {
+    from_port   = 2377
+    to_port     = 2377
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+   ingress {
+    from_port   = 7946
+    to_port     = 7946
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+   ingress {
+    from_port   = 4789
+    to_port     = 4789
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
