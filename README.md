@@ -1,4 +1,4 @@
-# CLOUDFORCESKY ASSESSMENT
+# CLOUD-FORCE-SKY ASSESSMENT
 
 __Summary:__
 Create a Cloud Formation template that provisions a VPC with its necessary components and an EC2 instance within the VPC.
