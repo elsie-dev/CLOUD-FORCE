@@ -15,8 +15,7 @@ Point to note: I used Terraform instead of AWS cloud formation as my infrastruct
 
 ## STEPS:
 
-- To make terraform accessible for your terraform provisioning you set up your credentials using either aws configure or environment variable 
-__ $ export SECRET_ACCESS_KEY__ and __ $export AWS ACCESS_KEY __
+- To make terraform accessible for your terraform provisioning you set up your credentials using either aws configure or environment variable  $ export SECRET_ACCESS_KEY and  $export AWS ACCESS_KEY 
 
 - Once you have terraform.tf files for your VPC and ec2 instance. You first this command to initialize.
 ```
