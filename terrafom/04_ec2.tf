@@ -6,7 +6,7 @@ resource "aws_instance" "ec2_instance" {
   vpc_security_group_ids = [aws_security_group.my_security_group.id]
   associate_public_ip_address = true
   tags = {
-    Name = "ec2-instance"
+    Name = "cloudforce-task"
     Environment = "dev"
   }
 }
