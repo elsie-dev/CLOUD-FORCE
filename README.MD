@@ -1,5 +1,7 @@
 Deploying Containerized Application on AWS
 
+Summary for this task [](https://drive.google.com/file/d/1BM4ztwi2p7oTxYsjE4_tJdk8FqDf5Lqe/view?usp=sharing)
+
 ## Prerequisties
 - Python Understanding for the "my app"
 
@@ -43,3 +45,4 @@ docker push YOUR ID.dkr.ecr.YOUR REGION.amazonaws.com/test:latest
 ## Creating task definitions
 From the cluster creation,you can create a Task definition.
 
+Testing deployed application
