@@ -29,6 +29,7 @@ Enabling the user to have **AmazonEC2ContainerRegistryFullAccess** permissions
 ```aws configure ```
 
 ### Creating Elastic Container Service Repository
+
 To upload Docker image to the repository
 
 ```
