@@ -42,8 +42,11 @@ docker push YOUR ID.dkr.ecr.YOUR REGION.amazonaws.com/test:latest
 ```
 
 ## Creating ECS cluster from AWS console
+![ECR Created in the console]()
 
 ## Creating task definitions
 From the cluster creation,you can create a Task definition.
+
+![Task definition created in the console]()
 
 Testing deployed application
