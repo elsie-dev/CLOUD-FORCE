@@ -56,3 +56,6 @@ From the cluster creation,you can create a Task definition.
 ![Task definition created in the console]()
 
 ## Testing deployed application
+To test if your application has been deployed succesfully run:
+
+Navigate to your DNS url and paste into the browser
